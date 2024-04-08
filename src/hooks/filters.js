@@ -26,17 +26,18 @@ const matchesFilters = (item, filters) => {
 export const useFilters = (initialData) => {
   const [data, setData] = useState(initialData);
   const [filters, setFilters] = useState({
-    Color: [],
-    Country: [],
-    Cylinder: [],
-    Rarity: [],
-    Type: [],
-    Acceleration: { min: 0, max: Infinity },
-    "Engine Size": { min: 0, max: Infinity },
-    "Horse Power": { min: 0, max: Infinity },
-    "Speed Increase": { min: 0, max: Infinity },
-    "Top Speed": { min: 0, max: Infinity },
-    Weight: { min: 0, max: Infinity },
+    Terreno: [],
+    Alcohol: [],
+    Bodega: [],
+    Origen: [],
+    Tipo: [],
+    Localizacion: [],
+    Maridaje: [],
+    Crianza: [],
+    Premios: [],
+    Edad: [],
+    Altitud: [],
+    Añada: { min: 0, max: Infinity },
   });
 
   // Update filter settings

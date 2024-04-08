@@ -6,14 +6,7 @@ const FilterSideBarComponent = ({ initialData, onDataChange }) => {
   const { updateFilter, filteredData, updateData } = useFilters(initialData);
 
   /* Range Filters */
-  const rangeFilterTypes = [
-    "Acceleration",
-    "Engine Size",
-    "Horse Power",
-    "Speed Increase",
-    "Top Speed",
-    "Weight",
-  ];
+  const rangeFilterTypes = ["Añada"];
   const rangeInitialFilters = rangeFilterTypes.reduce((acc, type) => {
     acc[type] = {
       isOpen: false,
@@ -23,13 +16,7 @@ const FilterSideBarComponent = ({ initialData, onDataChange }) => {
     return acc;
   }, {});
   /* Selectable Filters */
-  const selectableFilterTypes = [
-    "Color",
-    "Country",
-    "Cylinder",
-    "Rarity",
-    "Type",
-  ];
+  const selectableFilterTypes = ["Tipo", "Bodega", "Alcohol", "Premios"];
   const selectableInitialFilters = selectableFilterTypes.reduce((acc, type) => {
     acc[type] = {
       isOpen: false,

@@ -153,7 +153,7 @@ const RosegoldCollection = () => {
           )) &&
         (!selectedTypes.length ||
           selectedTypes.includes(
-            item.attributes.find((attr) => attr.trait_type === "Type").value
+            item.attributes.find((attr) => attr.trait_type === "Tipo").value
           )) &&
         (!selectedCylinders.length ||
           selectedCylinders.includes(
@@ -311,7 +311,7 @@ const RosegoldCollection = () => {
 
       const countryData = extractAttribute("Country");
       const cylinderData = extractAttribute("Cylinder");
-      const typeData = extractAttribute("Type");
+      const typeData = extractAttribute("Tipo");
       const colorsData = extractAttribute("Color");
 
       setCountryData(countryData);
@@ -508,7 +508,7 @@ const RosegoldCollection = () => {
                 setTypeMenu(!typeMenu);
               }}
             >
-              Type {selectedTypes.length ? "*" : ""} <IoIosArrowDown />
+              Tipo {selectedTypes.length ? "*" : ""} <IoIosArrowDown />
             </button>
             {typeMenu && (
               <div className="">
