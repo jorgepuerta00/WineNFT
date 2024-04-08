@@ -13,15 +13,8 @@ RUN npm install
 # Copy the rest of your app's source code from your project into the container
 COPY . .
 
-# Increase the memory limit for Node.js to prevent build failures
-ENV NODE_OPTIONS=--max_old_space_size=2048
-
 # Build the app for production
 RUN npm run build
-
-# Unset the NODE_OPTIONS environment variable after the build
-# This is optional, only do this if you're facing issues running `serve`
-# ENV NODE_OPTIONS=
 
 # Install `serve` to run the application
 RUN npm install -g serve
