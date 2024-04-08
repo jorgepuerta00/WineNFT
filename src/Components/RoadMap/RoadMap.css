@@ -1,0 +1,44 @@
+.roadmap-container{
+    background-color: #ebebeb;
+    height: auto !important;
+    font-family: "Lato";
+}
+.roadmap-container h1{
+    font-style:italic;
+    font-weight: 600;
+}
+
+.year-div{
+    background-color:#00AEEF;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    color: white ;
+    font-size: 30px;
+    font-weight: 600;
+}
+.card{
+    width: 450px;
+}
+.card h5{
+    font-style: italic;
+    font-weight: 600;
+    color:rgb(85, 85, 85);
+
+}
+.card-p-r{
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal;
+}
+.date-p{
+    font-size: 22px;
+    color:rgb(85, 85, 85);
+}
+@media screen and (max-width: 400px){
+    .card{
+        width: 300px !important;
+    }
+    
+
+}

@@ -1,0 +1,70 @@
+.turbo-page {
+  font-family: "Lato";
+}
+.turbo-page h1 {
+  font-style: italic;
+  font-weight: bold;
+}
+.turbo-page span {
+  color: #ec008c;
+}
+.yellow-bg-div {
+  background-color: #ffdd17;
+  height: 65px;
+}
+.yellow-bg-div p {
+  font-size: 19px;
+  font-style: italic;
+}
+.yellow-bg-div span {
+  font-weight: bold;
+}
+.note {
+  color: #ec008c;
+  font-size: 17px;
+  font-weight: bold;
+}
+.blue-bg-turbo-div {
+  background-image: url("../../Media/pre_games_hintergund.jpg");
+  background-size: cover;
+  height: 105vh;
+  background-size: 105% 105%;
+  background-repeat: no-repeat;
+  color: white !important;
+  font-family: "Lato";
+  font-style: Normal;
+}
+.bold-p {
+  font-weight: bold;
+  font-style: normal;
+  color: white !important;
+}
+@media screen and (max-width: 800px) {
+  .blue-bg-turbo-div {
+    background-image: url("../../Media/pre_games_hintergund.jpg");
+    background-size: cover;
+    height: 200vh;
+    background-size: 105% 105%;
+    background-repeat: no-repeat;
+    color: white !important;
+    font-family: "Lato";
+    font-style: Normal;
+  }
+}
+@media screen and (max-width: 450px) {
+  .yellow-bg-div p {
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  .blue-bg-turbo-div {
+    background-image: url("../../Media/pre_games_hintergund.jpg");
+    background-size: cover;
+    height: 240vh;
+    background-size: 105% 105%;
+    background-repeat: no-repeat;
+    color: white !important;
+    font-family: "Lato";
+    font-style: Normal;
+  }
+}

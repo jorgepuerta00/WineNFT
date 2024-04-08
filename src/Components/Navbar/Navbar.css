@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mukta:wght@200;300;400;500;600;700&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+.logo-img{
+    height: 22px;
+    /* margin-bottom:5px; */
+    
+
+}
+
+.nav-link{
+    font-family: "Lato",;
+    font-size: 17x !important;
+    /* margin-top: -2px; */
+    font-style: italic;
+    font-weight: 500;
+    color: white !important;
+
+}
+.nav-link:hover{
+    color: #2199e8 !important;
+}
+.p-c-link{
+    color: #ec008c !important;
+}
+.f-c-link{
+    color:#2199e8 !important;
+}
+.t-icon{
+    font-size: 19px;
+}
+@media screen and (max-width: 450px){
+    
+    .logo-img{
+        height: 15px;
+        /* margin-bottom:5px; */
+        
+    
+    }
+    
+
+}
+

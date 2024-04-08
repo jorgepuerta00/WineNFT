@@ -1,0 +1,71 @@
+.shop-header{
+    background-image: url("../../Media/header_1hintergrund.jpg");
+    background-size: cover;
+    height:20vh;
+   background-size: 100% 100;  
+   background-repeat: no-repeat;
+   color: white !important;
+   font-family: "Lato";
+   font-style: italic;
+}
+.shop-header h3{
+    font-weight: 600;
+}
+.card-shop-div h4{
+    font-weight: 400;
+    font-family: "Lato";
+    
+}
+.blue-m-bg-div{
+    background-color: #00AEEF;
+    width: 100px;
+    height: 42px;
+    
+
+}
+.pink-m-bg-div{
+    background-color: #EC008C;
+    width: 100px;
+    height: 42px;
+    position: absolute;
+ 
+     top: 23%  !important;
+    left:2.5%;
+    z-index: 1;
+    
+}
+.offer-p{
+    font-style: normal;
+
+}
+.span-pink{
+    color:#EC008C !important;
+    font-style: normal;
+}
+.black-m-bg-div{
+    background-color: #231F20;
+    width: 100px;
+    height: 42px;
+    position: absolute;
+   
+    left:1.3%;
+    top:12%;
+    bottom: -20%;
+    z-index:11;
+    
+
+}
+.s-h-div{
+    width: 150px;
+}
+.sh-h-div{
+    width: 250px;
+}
+.scroll-h{
+    font-style: italic;
+    text-decoration: underline;
+}
+.down-arrow{
+    font-size: 60px;
+    font-weight: 800;
+}

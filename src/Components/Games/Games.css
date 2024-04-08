@@ -1,0 +1,83 @@
+.q-g-h{
+    color: black;
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 600;
+}
+.Games-main{
+    font-family: "Lato";
+}
+.blue-writing-box{
+    background-color:#00AEEF ;
+    font-family: "Lato";
+    font-style: italic;
+    height: 80px;
+    width: 100%;
+
+}
+.blue-writing-box p{
+    color: white;
+    font-size: 22px;
+}
+.arrow-icon{
+    color:#00AEEF;
+    font-size: 30px;
+    /* height: 35px; */
+    width: 40px;
+    
+}
+
+
+.bd{
+    border: 1px solid black;
+}
+
+.blue-bg-div{
+    background-color: #00AEEF;
+    width: 200px !important;
+    height: 42px;
+    
+
+}
+.pink-bg-div{
+    background-color: #EC008C;
+    width: 200px !important;
+    height: 42px;
+    position: absolute;
+ 
+     top: 23%  !important;
+    left:2.5%;
+    z-index: 1;
+    
+}
+.black-bg-div{
+    background-color: #231F20;
+    width: 200px !important;
+    height: 42px;
+    position: absolute;
+   
+    left:1.3%;
+    top:12%;
+    bottom: -20%;
+    z-index:11;
+    
+
+}
+@media screen and (max-width: 500px){
+    .arrow-icon{
+        color:#00AEEF;
+        font-size: 20px;
+        /* height: 35px; */
+        width: 40px;
+        
+    }
+    .header-button-div {
+        font-size: 12px;
+    }
+    /* .nav-link{
+        font-size: 11px;
+
+    } */
+    
+
+}

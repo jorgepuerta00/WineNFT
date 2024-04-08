@@ -1,0 +1,48 @@
+.footer{
+    height: 100vh;
+}
+.footer-h-img{
+    height: 300px;
+}
+.footer-hs-img{
+    /* height: 300px; */
+    width: 500px;
+}
+.footer-p{
+    font-style: italic;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.footer span{
+    font-size: 15px;
+    color: white;
+    font-family: "Lato";
+    font-style: normal;
+    
+}
+.footer a{
+    font-size: 15px;
+    color: white;
+    font-family: "Lato";
+    font-style: normal;
+    
+}
+.footer-a{
+    color: white;
+    font-size: 15px;
+
+    font-family: "Lato";
+    font-style: normal;
+
+}
+.bottom-div{
+    font-size: 14px;
+    color: white;
+    
+}
+.footer-icon{
+    color:white;
+    font-size: 25px;
+}
