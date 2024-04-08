@@ -13,9 +13,6 @@ RUN npm install
 # Copy the rest of your app's source code from your project into the container
 COPY . .
 
-# Set environment variable to increase memory limit for Node.js
-ENV NODE_OPTIONS="--max-old-space-size=4096"
-
 # Build the app for production
 RUN npm run build
 
