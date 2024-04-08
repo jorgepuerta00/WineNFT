@@ -1,9 +1,7 @@
 import React from "react";
 import "./Games.css";
-import { IoMdArrowDropright } from "react-icons/io";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import game from "../../Media/thegame.jpg";
-import { NavLink } from "react-router-dom";
 
 const Games = () => {
   return (
@@ -11,34 +9,28 @@ const Games = () => {
       <div className="col-11 mx-auto mt-5">
         <div className="row mt-5">
           <div className="col-lg-6 p-2">
-            <h1 className="q-g-h">THE QURTEET GAME</h1>
+            <h1 className="q-g-h">EL MERCADO DE VINOS ECOLÓGICOS</h1>
             <p>
-              ledgerlegends.racing is more than a nice collection of collectible
-              NFTs – it’s a fully playable car quartet game in which each NFT
-              represents a playing card. And thanks to the blockchain, each card
-              is unique and has a distinct owner.
+              vino.ecologico no es solo una plataforma, sino una revolución en
+              la forma en que productores y consumidores se conectan. Cada
+              botella de vino disponible en nuestra DApp es una promesa de
+              calidad, sostenibilidad y autenticidad, directamente de la bodega
+              a tu copa, sin intermediarios.
             </p>
             <div className="blue-writing-box text-center d-flex justify-content-center  align-items-center ">
-              <p>The game principle is very simple: The better Car(d) wins!</p>
+              <p>
+                El principio es muy simple: Transparencia y calidad directamente
+                del productor.
+              </p>
             </div>
             <div className="row mt-2">
               <div className="col-1 px-0 mx-0 ms-0">
                 <IoIosArrowDroprightCircle className="arrow-icon" />
               </div>
               <div className="col-11">
-                The first game mode is called “Play for Fun” and is designed to
-                get to know the game better. It is a game of player vs. AI and
-                as the name suggests, it’s all about the fun.
-              </div>
-            </div>
-            <div className="row mt-2">
-              <div className="col-1 px-0 mx-0 ms-0">
-                <IoIosArrowDroprightCircle className="arrow-icon" />
-              </div>
-              <div className="col-11">
-                The second and brand new game mode is called “Play to Earn” and
-                allows you to earn up to 100,000 TURBO a day with your cards –
-                without any risk. What are you waiting for?
+                Descubre nuestra selección y compra directamente. Explora vinos
+                auténticos, conoce a los productores y su filosofía. Todo en un
+                solo lugar.
               </div>
             </div>
             <div className="row mt-2">
@@ -46,28 +38,28 @@ const Games = () => {
                 <IoIosArrowDroprightCircle className="arrow-icon" />
               </div>
               <div className="col-11">
-                Very soon the third game mode “Play to Win” follows in which you
-                actually play for the cards. And a little later we will publish
-                game modes like Player vs. Players and multiplayer, where you
-                play for the cards or for TURBO – to win, of course.
+                Participa en eventos exclusivos, catas online y encuentros
+                virtuales. Aprende más sobre el mundo del vino ecológico y cómo
+                tu elección marca la diferencia.
               </div>
             </div>
-            <div className="header-button-div  mt-4 position-relative ">
-              <div className="blue-bg-div"></div>
-              <div className="pink-bg-div"></div>
-              <div className="black-bg-div">
-                <NavLink
-                  className="nav-link d-flex justify-content-center mt-2 "
-                  to="/play"
-                  alt=""
-                >
-                  Click Here to Play the Game
-                </NavLink>
+            <div className="row mt-2">
+              <div className="col-1 px-0 mx-0 ms-0">
+                <IoIosArrowDroprightCircle className="arrow-icon" />
+              </div>
+              <div className="col-11">
+                Apoya la sostenibilidad. Cada compra contribuye a prácticas de
+                cultivo ecológico y a una economía más justa para pequeños
+                productores.
               </div>
             </div>
           </div>
           <div className="col-lg-6 py-1 px-2">
-            <img className="img-fluid ms-lg-3" src={game} alt="game" />
+            <img
+              className="img-fluid ms-lg-3"
+              src={game}
+              alt="Vinos Ecológicos"
+            />
           </div>
         </div>
       </div>

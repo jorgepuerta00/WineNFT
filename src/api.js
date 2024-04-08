@@ -18,7 +18,7 @@ const networks = {
     chainName: "Ethereum Mainnet",
     nativeCurrency: {
       name: "Ether",
-      symbol: "ETH",
+      symbol: "MATIC",
       decimals: 18,
     },
     rpcUrls: [

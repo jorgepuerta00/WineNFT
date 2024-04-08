@@ -21,7 +21,6 @@ const Header = () => {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // initialSlide: 0,
     autoplay: true,
     arrows: true,
   };
@@ -32,18 +31,17 @@ const Header = () => {
           <div className="row">
             <div className="col-lg-4 px-2 d-flex flex-column mt-lg-5 align-items-lg-end align-items-center pt-lg-5  order-lg-1 order-2 ">
               <img className="game-div-head-img ms-5  mt-lg-5" src={a} alt="" />
-
               <div className="ps-lg-5 ps-2">
                 <p className="ps-lg-5 ps-2">
-                  ledgerlegends.racing is more than a nice collection of
-                  collectible NFTs – it’s a fully playable car quartet game in
-                  which each NFT represents a playing card.
+                  vino.ecologico es más que una excelente colección de NFTs
+                  coleccionables: representa un compromiso con la calidad y la
+                  sostenibilidad en el mundo del vino.
                 </p>
                 <p className="ps-lg-5 ps-2">
-                  Already got cards? Then click the link below and PLAY FOR FUN
-                  or PLAY TO EARN up to 100,000 TURBO every day! Have no cards
-                  yet? Then click on The Collection above to buy your first
-                  cards.
+                  ¿Ya tienes tus vinos seleccionados? Haz clic en el enlace de
+                  abajo y EXPLORA MÁS o COMPRA PARA APOYAR la producción
+                  ecológica. ¿Aún no tienes tus primeras botellas? Entonces haz
+                  clic en La Colección arriba para comenzar.
                 </p>
                 <div className="header-button-div ms-5 position-relative ">
                   <div className="blue-bg-div"></div>
@@ -55,7 +53,7 @@ const Header = () => {
                       alt=""
                     >
                       {" "}
-                      Play for Fun
+                      Explorar Colección{" "}
                     </a>
                   </div>
                 </div>
@@ -66,7 +64,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="garage-div">
+        <div className="winery-div">
           <div className="row">
             <div className="col-lg-5 px-2 d-flex flex-column mt-lg-5 align-items-lg-end align-items-center  order-lg-1 order-2 ">
               <div className="d-flex me-lg-5 ">
@@ -76,22 +74,22 @@ const Header = () => {
                   alt=""
                 />
               </div>
-
               <div className="ps-lg-5 ps-2 mt-lg-1">
                 <p className="ps-lg-5 ps-2">
-                  Check out your very personal Garage and find all car(d)s in
-                  your possesion – sorted by their categories.
+                  Explora tu Bodega Personal y descubre todos los vinos que
+                  posees, ordenados por categorías.
                 </p>
                 <p className="ps-lg-5 ps-2 pt-sm-0 ">
-                  The more floors you have, the more categories your portfolio
-                  covers. Collect more cards to own them all, as not only you
-                  will get tokens for each NFT in your possession, but multiple
-                  times if you own categories completely.
+                  Cuanto más amplia sea tu colección, más categorías cubrirá.
+                  Colecciona más vinos para completar tu bodega. No solo
+                  recibirás recompensas por cada NFT en tu posesión, sino
+                  también beneficios adicionales si completas categorías
+                  enteras.
                 </p>
                 <p className="ps-lg-5 ps-2">
-                  The Garage is the base and starting point of the quartet game
-                  and practically your account. Check it out and learn more via
-                  this link:
+                  La Bodega no es solo un punto de inicio para ampliar tu
+                  colección, sino prácticamente tu espacio personalizado.
+                  Descubre más a través de este enlace:
                 </p>
                 <div className="header-button-div ms-5 position-relative ">
                   <div className="blue-bg-div"></div>
@@ -102,18 +100,19 @@ const Header = () => {
                       href=""
                       alt=""
                     >
-                      Your Garage
+                      {" "}
+                      Tu Bodega{" "}
                     </a>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-7 order-lg-2 order-1">
-              <img className="img-fluid garage-img" src={d} alt="" />
+              <img className="img-fluid winery-img" src={d} alt="" />
             </div>
           </div>
         </div>
-        <div className="turbo-token-div">
+        <div className="Vinum-token-div">
           <div className="row">
             <div className="col-lg-6 px-2 d-flex flex-column mt-lg-5 align-items-lg-end align-items-center  order-lg-1 order-2 ">
               <div className="me-lg-5">
@@ -127,23 +126,22 @@ const Header = () => {
                   </div>
                 </div>
               </div>
-
               <div className="ps-lg-5 mt-lg-2 ps-2">
                 <p className="ps-lg-5 ps-2">
-                  TURBO is the substance that moves our game forward. It’s as
-                  simple as this: The more NFTs the more Tokens! With every NFT
-                  you buy, you receive a certain amount of TURBO that you can
-                  use to play games, trade or buy more NFTs, or enjoy other
-                  benefits within the game.
+                  Vinum es la esencia que avanza nuestra plataforma. Así de
+                  simple: ¡Cuántos más NFTs, más Vinum! Con cada NFT que
+                  adquieras, recibirás una cantidad determinada de Vinum, que
+                  podrás utilizar para obtener beneficios dentro de la
+                  plataforma.
                 </p>
                 <p className="ps-lg-5 ps-2">
-                  Wanna know more? Please read our Whitepaper.
+                  ¿Quieres saber más? Consulta nuestro Libro Blanco.
                 </p>
                 <p className="ps-lg-5 ps-2">
-                  You can not only use TURBO in the game, but also earn it.
-                  Click on The Games to start Play to Earn. There will also be
-                  regular opportunities to earn more TURBO – join our Discord to
-                  make sure you don’t miss out!
+                  No solo puedes usar Vinum dentro de la plataforma, sino
+                  también ganarlo. Haz clic en Juegos para comenzar a Jugar y
+                  Ganar. Habrá oportunidades regulares para obtener más Vinum –
+                  únete a nuestro Discord para no perderte nada.
                 </p>
                 <div className="header-button-div ms-5 position-relative ">
                   <div className="blue-bg-div"></div>
@@ -154,7 +152,8 @@ const Header = () => {
                       href=""
                       alt=""
                     >
-                      Join our Discord
+                      {" "}
+                      Únete a nuestro Discord{" "}
                     </a>
                   </div>
                 </div>
@@ -169,21 +168,21 @@ const Header = () => {
           <div className="row">
             <div className="col-lg-4 px-2 d-flex flex-column mt-lg-5 align-items-lg-end align-items-center  order-lg-1 order-2 ">
               <img className="game-div-head-img " src={g} alt="" />
-
               <div className="ps-lg-5 ps-2">
                 <p className="ps-lg-5 ps-2">
-                  the first NFT collectible card game with chrome, speed and
-                  horsepower based on the polygon blockchain.
+                  El primer juego de cartas coleccionables NFT con esencia,
+                  pasión y tradición vitivinícola, basado en la blockchain de
+                  polygon.
                 </p>
                 <p className="ps-lg-5 ps-2">
-                  Scroll down to learn more about our 1,300 beautifully designed
-                  NFTs in 5+ exclusive collections and of course about the game
-                  behind it!
+                  Desciende para aprender más sobre nuestras 1,300 NFTs
+                  bellamente diseñadas en más de 5 colecciones exclusivas y, por
+                  supuesto, sobre el juego detrás de ellas.
                 </p>
                 <p className="ps-lg-5 ps-2">
-                  And don’t miss to join our Discord fast as we are giving away
-                  3 FREE NFTs plus 3 TURBO (tokens) for a very limited time
-                  only!
+                  ¡Y no pierdas la oportunidad de unirte a nuestro Discord, ya
+                  que estamos regalando 3 NFTs GRATIS más 3 Vinum (tokens) por
+                  tiempo muy limitado!
                 </p>
                 <div className="header-button-div ms-5 position-relative ">
                   <div className="blue-bg-div"></div>
@@ -195,7 +194,7 @@ const Header = () => {
                       alt=""
                     >
                       {" "}
-                      Play for Fun
+                      Juega por Diversión{" "}
                     </a>
                   </div>
                 </div>
@@ -206,7 +205,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="garage-div">
+        <div className="winery-div">
           <div className="row">
             <div className="col-lg-5 px-2 d-flex flex-column mt-lg-5 align-items-lg-end align-items-center  order-lg-1 order-2 ">
               <div className="d-flex me-lg-5 ">
@@ -216,22 +215,21 @@ const Header = () => {
                   alt=""
                 />
               </div>
-
               <div className="ps-lg-5 ps-2 mt-lg-1">
                 <p className="ps-lg-5 ps-2">
-                  Check out your very personal Garage and find all car(d)s in
-                  your possesion – sorted by their categories.
+                  Descubre tu Bodega Personal y encuentra todos los vinos en tu
+                  posesión, organizados por categorías.
                 </p>
                 <p className="ps-lg-5 ps-2 pt-sm-0 ">
-                  The more floors you have, the more categories your portfolio
-                  covers. Collect more cards to own them all, as not only you
-                  will get tokens for each NFT in your possession, but multiple
-                  times if you own categories completely.
+                  Cuanto más completa sea tu colección, más categorías cubrirá
+                  tu portafolio. Colecciona más vinos para poseerlos todos, ya
+                  que no solo recibirás tokens por cada NFT que poseas, sino
+                  múltiples veces si posees categorías completas.
                 </p>
                 <p className="ps-lg-5 ps-2">
-                  The Garage is the base and starting point of the quartet game
-                  and practically your account. Check it out and learn more via
-                  this link:
+                  La Bodega es la base y el punto de partida del juego del
+                  cuarteto y, prácticamente, tu cuenta. Descúbrelo y aprende más
+                  a través de este enlace:
                 </p>
                 <div className="header-button-div ms-5 position-relative ">
                   <div className="blue-bg-div"></div>
@@ -242,14 +240,15 @@ const Header = () => {
                       href=""
                       alt=""
                     >
-                      Meet us in NewYork
+                      {" "}
+                      Encuéntranos en Nueva York{" "}
                     </a>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-7 order-lg-2 order-1">
-              <img className="img-fluid garage-img" src={j} alt="" />
+              <img className="img-fluid winery-img" src={j} alt="" />
             </div>
           </div>
         </div>

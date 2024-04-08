@@ -15,7 +15,7 @@ const TheCollection = () => {
 
   return (
     <div>
-      <Header title="The Collection" />
+      <Header title="La colección" />
       <div className="row py-5 cards-container">
         <FilterSideBarComponent
           initialData={initialData}

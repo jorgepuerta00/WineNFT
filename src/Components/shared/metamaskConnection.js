@@ -10,21 +10,21 @@ export const MetamaskWalletConnection = () => {
   return (
     <div id="wallet-connection" className="row">
       <div className="col-11 mx-auto px-4">
-        <h1 className="mt-5">WELCOME TO YOUR PERSONAL GARAGE</h1>
+        <h1 className="mt-5">BIENVENIDO A TU BODEGA PERSONAL</h1>
         <div className="d-flex ">
-          <img className="fox-icon" src={MetaMaskIcon} alt="a" />
+          <img className="fox-icon" src={MetaMaskIcon} alt="MetaMask Icono" />
           <h5 className="mt-4">
-            Please connect to MetaMask to view the cards you own.
+            Por favor, conecta a MetaMask para ver los vinos que posees.
           </h5>
         </div>
         <div className="mx-2">
           <p>
-            <span className="me-1">Note:</span>if you are accessing with a
-            mobile device,
+            <span className="me-1">Nota:</span>si estás accediendo con un
+            dispositivo móvil,
           </p>
           <p>
-            you will need to access this page via the browser in the MetaMask
-            app
+            necesitarás acceder a esta página a través del navegador en la
+            aplicación de MetaMask
           </p>
         </div>
         <div>
@@ -36,7 +36,7 @@ export const MetamaskWalletConnection = () => {
                 onClick={!isConnected ? connectWallet : disconnectWallet}
                 className="nav-link d-flex justify-content-center mt-2"
               >
-                {!isConnected ? "Connect Wallet" : "Disconnect Wallet"}
+                {!isConnected ? "Conectar Cartera" : "Desconectar Cartera"}
               </NavLink>
             </div>
           </div>

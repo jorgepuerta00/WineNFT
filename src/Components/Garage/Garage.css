@@ -1,10 +1,10 @@
-.garage h1{
+.winery h1{
     font-style: italic;
 }
 .fox-icon{
     height: 70px !important;
 }
-.garage span{
+.winery span{
     font-style: normal;
     font-weight: bold;
 }
@@ -39,12 +39,12 @@
     
 
 }
-.garage-card-container{
+.winery-card-container{
     background-color: #ebebeb;
     /* height:110vh; */
     height: auto !important;
 }
-.garage-card-container h1{
+.winery-card-container h1{
     font-weight: bold;
 }
 .uniq-nft{
@@ -56,12 +56,12 @@
 .pic{
     height: 650px
 }
-.garage-c-p{
+.winery-c-p{
     font-size: 17px;
     font-family: "Lato";
 
 }
-.garage-p-p{
+.winery-p-p{
     color:#EC008C;
     font-weight: bold;
     font-size: 17px;

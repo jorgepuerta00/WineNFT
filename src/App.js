@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import FAQ from "./Components/FAQ/FAQ";
 import { Provider } from "react-redux";
-import Turbo from "./Components/Turbo/Turbo";
+import Vinum from "./Components/Vinum/Vinum";
 import store from "./Redux/store";
 import GarageNFTCollections from "./Components/Garage/GarageNFTCollections";
 import Play from "./Components/Play/Play";
@@ -34,15 +34,15 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/shop" element={<Shop />} />
-            <Route path="/garage" element={<Garage />} />
-            <Route path="/games" element={<Games />} />
+            <Route path="/winery" element={<Garage />} />
+            <Route path="/home" element={<Games />} />
             <Route path="/roadmap" element={<RoadMap />} />
             <Route path="/faq" element={<FAQ />} />
             <Route
               path="/garageNFTCollections"
               element={<GarageNFTCollections />}
             />
-            <Route path="/turbo" element={<Turbo />} />
+            <Route path="/Vinum" element={<Vinum />} />
             <Route path="/play" element={<Play />} />
             <Route path="/SilverCollection" element={<SilverCollection />} />
             <Route path="rosegoldcollection" element={<RosegoldCollection />} />

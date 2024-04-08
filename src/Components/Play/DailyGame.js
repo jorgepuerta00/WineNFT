@@ -10,14 +10,14 @@ const DailyGame = () => {
               <h2>Welcome to the Daily Competition Pre Launch Game</h2>
             </div>
             <div className="d-flex justify-content-end mt-3">
-              <h1>YOUR DAILY CHANCE TO WIN A ledgerlegends.racing NFT!</h1>
+              <h1>YOUR DAILY CHANCE TO WIN A vino.ecologico NFT!</h1>
             </div>
             <div className="d-flex justify-content-end mt-4">
               <h5>
-                Can you hardly wait for the launch of the ledgerlegends.racing
-                Game? To shorten the waiting time for all of us, we have
-                developed a little pre-launch game for you: the
-                ledgerlegends.racing daily competition!
+                Can you hardly wait for the launch of the vino.ecologico Game?
+                To shorten the waiting time for all of us, we have developed a
+                little pre-launch game for you: the vino.ecologico daily
+                competition!
               </h5>
             </div>
             <div className="d-flex justify-content-end mt-4">
@@ -28,8 +28,8 @@ const DailyGame = () => {
                 your set. Just select your card with the best value in the day's
                 category below (you will already see the cards of the other
                 participants below). At the end of the day, the card with the
-                highest value will win another cool NFT from the
-                ledgerlegends.racing Collection.
+                highest value will win another cool NFT from the vino.ecologico
+                Collection.
               </h5>
             </div>
             <div className="d-flex justify-content-end mt-4">
@@ -43,8 +43,8 @@ const DailyGame = () => {
           <h1 className="game-h">TO START THE GAME:</h1>
           <ol>
             <li>
-              You need to have some ledgerlegends.racing NFT ( Claim your free
-              pack here )
+              You need to have some vino.ecologico NFT ( Claim your free pack
+              here )
             </li>
             <li>Connect to your MetaMask Wallet</li>
             <li>

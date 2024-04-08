@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { toast } from "react-toastify";
-import CarSetImage from "../../Media/nft_kartenset.png";
+import WineSetImage from "../../Media/nft_kartenset.png";
 import {
   AvatarMarketplaceAbi,
   AvatarMarketplaceAddress,
@@ -23,7 +23,7 @@ export const MintingSection = () => {
   const mintNFT = async () => {
     try {
       if (!isConnected) {
-        toast.error("Please connect wallet first");
+        toast.error("Por favor, conecta tu cartera primero.");
         return;
       }
 
@@ -38,48 +38,56 @@ export const MintingSection = () => {
       console.log(balanceEth, "balanceEth");
 
       if (balanceEth >= pricewei * 5) {
-        const NFTResponce = await contract.methods
+        const NFTResponse = await contract.methods
           .purchaseNFTsPackage("5")
           .send({
             from: acc,
             value: price * 5,
           });
-        console.log(NFTResponce, "NFTResponce");
-        toast.success("Successfully minted");
+        console.log(NFTResponse, "NFTResponse");
+        toast.success("NFTs de vinos ecológicos acuñados con éxito.");
       } else {
-        console.log("Insufficient ETH balance");
-        toast.error("Insufficient ETH balance");
+        console.log("Saldo MATIC insuficiente");
+        toast.error("Saldo MATIC insuficiente para la acuñación.");
       }
     } catch (error) {
-      console.error("Error in mintNFT:", error);
+      console.error("Error al acuñar NFTs:", error);
     }
   };
 
   return (
     <div className="minting-section">
-      <div id="nft-list" className="garage-card-container mt-5">
+      <div id="nft-list" className="winery-card-container mt-5">
         <div className="text-center pt-5">
-          <h1>DON'T HAVE ledgerlegends.racing YET?</h1>
-          <p>Then get our 5 UNIQUE NFT Starter Pack for only 2.5 ETH</p>
+          <h1>¿AÚN NO TIENES TU NFT DE VINO ECOLÓGICO?</h1>
           <p>
-            or get your dream cars from our Silver Collection directly into your
-            garage!
+            Obtén nuestro paquete de inicio de 5 NFTs únicos de Vinos Ecológicos
+            por solo 2.5 MATIC
+          </p>
+          <p>
+            o selecciona tus vinos ecológicos favoritos de nuestra Colección
+            Exclusiva directamente en tu bodega digital.
           </p>
         </div>
 
         <div className="row justify-content-center">
           <div className="col-lg-7 px-5 py-3">
             <div>
-              <img className="img-fluid" src={CarSetImage} alt="a" />
-              <div className="d-flex justify-content-center ">
-                <div className="uniq-nft text-center ">
+              <img
+                className="img-fluid"
+                src={WineSetImage}
+                alt="Conjunto de NFTs de Vino"
+              />
+              <div className="d-flex justify-content-center">
+                <div className="uniq-nft text-center">
                   <h3>
-                    Get your 5 UNIQUE NFT Starter Pack <span>NOW!</span>
+                    Obtén tu paquete de inicio de 5 NFTs únicos de Vinos
+                    Ecológicos <span>¡AHORA!</span>
                   </h3>
                 </div>
               </div>
-              <div className="d-flex justify-content-center mt-1 ">
-                <div className="header-button-div  mt-2 py-2 position-relative ">
+              <div className="d-flex justify-content-center mt-1">
+                <div className="header-button-div mt-2 py-2 position-relative">
                   <div className="blue-g-bg-div"></div>
                   <div className="pink-g-bg-div"></div>
                   <div className="black-g-bg-div">
@@ -87,7 +95,7 @@ export const MintingSection = () => {
                       className="nav-link d-flex justify-content-center mt-2"
                       onClick={mintNFT}
                     >
-                      MINT NOW
+                      ACUÑAR AHORA
                     </NavLink>
                   </div>
                 </div>

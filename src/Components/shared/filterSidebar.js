@@ -162,7 +162,7 @@ const FilterSideBarComponent = ({ initialData, onDataChange }) => {
   return (
     <div className="col-5 col-lg-3 ">
       <div className="side-bar px-lg-4 ">
-        <h2 className="sidebar-h py-2">Search by Traits</h2>
+        <h2 className="sidebar-h py-2">Buscar</h2>
         {[...selectableFiltersConfig, ...rangeFiltersConfig].map((filter) => {
           if (filter.type === "selectable") {
             return (

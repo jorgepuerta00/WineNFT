@@ -14,14 +14,14 @@ const Footer = () => {
         <img className="img-fluid footer-hs-img" src={b} alt="A" />
       </div>
       <div className="d-flex justify-content-center mt-3">
-        <p className="footer-p">© ledgerlegends.racing 2021-2022</p>
+        <p className="footer-p">© vino.ecologico 2021-2022</p>
       </div>
       <div className="d-flex justify-content-center mt-3">
         <p className="footer-p">
           Get in touch via discord or via{" "}
-          <span hred="/founders@ledgerlegends.racing" className="ms-1">
+          <span hred="/founders@vino.ecologico" className="ms-1">
             {" "}
-            founders@ledgerlegends.racing
+            founders@vino.ecologico
           </span>
         </p>
       </div>

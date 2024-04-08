@@ -12,31 +12,30 @@ import "./Shop.css";
 const Shop = () => {
   return (
     <div>
-      <Header title="The Collections" />
-
+      <Header title="Nuestra Tienda" />
       <div className="row">
         <div className="col-11 mx-auto">
           <div className="row mt-5">
             <div className="col-lg-3">
               <div className="card-shop-div py-5">
-                <img className="img-fluid" src={a} />
+                <img className="img-fluid" src={a} alt="Colección de vinos" />
                 <div className=" d-flex flex-column  justify-content-center align-items-center">
                   <div className="s-h-div text-center">
-                    <h4 className="mt-5 text-center">THE COLLECTION</h4>
+                    <h4 className="mt-5 text-center">Colección Ilimitada</h4>
                   </div>
-                  <p>UNLIMITED</p>
+                  <p>ILIMITADO</p>
                 </div>
-                <div className="d-flex justify-content-center  ">
-                  <div className="header-button-div   position-relative ">
+                <div className="d-flex justify-content-center">
+                  <div className="header-button-div position-relative ">
                     <div className="blue-m-bg-div"></div>
                     <div className="pink-m-bg-div"></div>
                     <div className="black-m-bg-div">
                       <NavLink
-                        className="nav-link d-flex justify-content-center mt-2 "
+                        className="nav-link d-flex justify-content-center mt-2"
                         to="/thecollection"
                         alt=""
                       >
-                        Visit Shop
+                        Ir a Tienda
                       </NavLink>
                     </div>
                   </div>
@@ -45,25 +44,24 @@ const Shop = () => {
             </div>
             <div className="col-lg-3">
               <div className="card-shop-div py-5">
-                <img className="img-fluid" src={b} />
+                <img className="img-fluid" src={b} alt="Colección Plata" />
                 <div className=" d-flex flex-column  justify-content-center align-items-center">
                   <div className="s-h-div text-center">
-                    <h4 className="mt-5 text-center">SILVER COLLECTION</h4>
+                    <h4 className="mt-5 text-center">Colección Plata</h4>
                   </div>
-
-                  <p>LIMITED</p>
+                  <p>RARO</p>
                 </div>
-                <div className="d-flex justify-content-center  ">
-                  <div className="header-button-div   position-relative ">
+                <div className="d-flex justify-content-center">
+                  <div className="header-button-div position-relative ">
                     <div className="blue-m-bg-div"></div>
                     <div className="pink-m-bg-div"></div>
                     <div className="black-m-bg-div">
                       <NavLink
-                        className="nav-link d-flex justify-content-center mt-2 "
+                        className="nav-link d-flex justify-content-center mt-2"
                         to="/SilverCollection"
                         alt=""
                       >
-                        Visit Shop
+                        Ir a Tienda
                       </NavLink>
                     </div>
                   </div>
@@ -72,25 +70,24 @@ const Shop = () => {
             </div>
             <div className="col-lg-3">
               <div className="card-shop-div py-5">
-                <img className="img-fluid" src={c} />
+                <img className="img-fluid" src={c} alt="Colección Oro Rosa" />
                 <div className=" d-flex flex-column  justify-content-center align-items-center">
                   <div className="s-h-div text-center">
-                    <h4 className="mt-5 text-center">ROSE GOLD COLLECTION</h4>
+                    <h4 className="mt-5 text-center">Colección Oro Rosa</h4>
                   </div>
-
-                  <p>VERY RARE</p>
+                  <p>MUY RARO</p>
                 </div>
-                <div className="d-flex justify-content-center  ">
-                  <div className="header-button-div   position-relative ">
+                <div className="d-flex justify-content-center">
+                  <div className="header-button-div position-relative ">
                     <div className="blue-m-bg-div"></div>
                     <div className="pink-m-bg-div"></div>
                     <div className="black-m-bg-div">
                       <NavLink
-                        className="nav-link d-flex justify-content-center mt-2 "
+                        className="nav-link d-flex justify-content-center mt-2"
                         to="/rosegoldcollection"
                         alt=""
                       >
-                        Visit Shop
+                        Ir a Tienda
                       </NavLink>
                     </div>
                   </div>
@@ -99,27 +96,26 @@ const Shop = () => {
             </div>
             <div className="col-lg-3">
               <div className="card-shop-div py-5">
-                <img className="img-fluid" src={d} />
+                <img className="img-fluid" src={d} alt="Colección Oro" />
                 <div className=" d-flex flex-column  justify-content-center align-items-center">
                   <div className="sh-h-div text-center">
                     <h4 className="mt-5 text-center">
-                      CARBON & LEATHER COLLECTION
+                      Colección de Oro Limitada
                     </h4>
                   </div>
-
-                  <p>RARE & LIMITED</p>
+                  <p>RARO Y LIMITADO</p>
                 </div>
-                <div className="d-flex justify-content-center  ">
-                  <div className="header-button-div   position-relative ">
+                <div className="d-flex justify-content-center">
+                  <div className="header-button-div position-relative ">
                     <div className="blue-m-bg-div"></div>
                     <div className="pink-m-bg-div"></div>
                     <div className="black-m-bg-div">
                       <NavLink
-                        className="nav-link d-flex justify-content-center mt-2 "
+                        className="nav-link d-flex justify-content-center mt-2"
                         to="/carbonleathercollection"
                         alt=""
                       >
-                        Visit Shop
+                        Ir a Tienda
                       </NavLink>
                     </div>
                   </div>
@@ -128,24 +124,24 @@ const Shop = () => {
             </div>
           </div>
           <div className="row mt-5">
-            <h4 className="scroll-h text-center ">
-              SCROLL DOWN TO CHECK SOME SPECIAL OFFERS!
+            <h4 className="scroll-h text-center">
+              DESPLÁZATE HACIA ABAJO PARA VER ALGUNAS OFERTAS ESPECIALES
             </h4>
             <IoIosArrowDown className="mt-2 down-arrow" />
           </div>
           <div className="d-flex justify-content-center flex-column pb-5">
-            <img className="img-fluid" src={e} alt="a" />
-            <div className="d-flex justify-content-center  ">
-              <div className="header-button-div   position-relative ">
+            <img className="img-fluid" src={e} alt="Oferta especial" />
+            <div className="d-flex justify-content-center">
+              <div className="header-button-div position-relative">
                 <div className="blue-m-bg-div"></div>
                 <div className="pink-m-bg-div"></div>
                 <div className="black-m-bg-div">
                   <a
-                    className="nav-link d-flex justify-content-center mt-2 "
+                    className="nav-link d-flex justify-content-center mt-2"
                     href=""
                     alt=""
                   >
-                    Buy Now
+                    Comprar
                   </a>
                 </div>
               </div>

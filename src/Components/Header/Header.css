@@ -40,8 +40,8 @@
   z-index: 11;
 }
 
-/* <<<<<<<<<<garage>>>>>>>>>>>>>>>>>>>>>>> */
-.garage-div {
+/* <<<<<<<<<<winery>>>>>>>>>>>>>>>>>>>>>>> */
+.winery-div {
   background-image: url("../../Media/header_garage.jpeg");
   background-size: cover;
   height: 105vh;
@@ -52,12 +52,12 @@
   font-style: Normal;
   /* width: 90%; */
 }
-.garage-img {
+.winery-img {
   height: 90%;
 }
-/* <<<<<<<<<<<<<turbo-toekn---------->>>>>>>>>>>> */
+/* <<<<<<<<<<<<<Vinum-toekn---------->>>>>>>>>>>> */
 
-.turbo-token-div {
+.Vinum-token-div {
   background-image: url("../../Media/header_token.jpeg");
   background-size: cover;
   height: 105vh;
@@ -83,7 +83,7 @@
 }
 
 @media screen and (max-width: 450px) {
-  .garage-img {
+  .winery-img {
     height: 260px;
     margin-left: 50px;
     /* width: 40%; */

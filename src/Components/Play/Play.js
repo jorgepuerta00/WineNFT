@@ -51,8 +51,7 @@ const Play = () => {
                 <div>
                   <p className="text-center mt-3">
                     At the end of the day, the card with the highest value will
-                    win another cool NFT from the ledgerlegends.racing
-                    Collection!
+                    win another cool NFT from the vino.ecologico Collection!
                   </p>
                 </div>
                 <div className="d-flex justify-content-center">
@@ -86,8 +85,8 @@ const Play = () => {
                 <div>
                   <p className="text-center mt-3">
                     And of course, the result counts: if three of the same cards
-                    remain standing, then you have won a random
-                    ledgerlegends.racing NFT from our Collection!
+                    remain standing, then you have won a random vino.ecologico
+                    NFT from our Collection!
                   </p>
                 </div>
                 <div className="d-flex justify-content-center">

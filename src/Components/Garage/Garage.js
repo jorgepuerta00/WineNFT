@@ -30,11 +30,11 @@ const Garage = () => {
   );
 
   return (
-    <div className="garage">
+    <div className="winery">
       <Header title="My Garage" />
       <MetamaskWalletConnection />
       {isConnected && initialData.length > 0 ? (
-        <div className="garage-card-container mt-5">
+        <div className="winery-card-container mt-5">
           <div className="row py-5 cards-container">
             <FilterSideBarComponent
               initialData={initialData}

@@ -26,7 +26,7 @@ const AdditionalGames = () => {
                     <div className="d-flex mt-4 ms-4 ">
                       <div className="upper-rotate-div text-center flex-column  ">
                         Your daily chance to win a
-                        <span>ledgerlegends.racing NFT!</span>{" "}
+                        <span>vino.ecologico NFT!</span>{" "}
                       </div>
                       <div className="number-div d-flex justify-content-center  align-items-center ">
                         1
@@ -48,7 +48,7 @@ const AdditionalGames = () => {
                       </p>
                       <p className="card-p">
                         At the end of the day, the card with the highest value
-                        will win another cool NFT from the ledgerlegends.racing
+                        will win another cool NFT from the vino.ecologico
                         Collection!
                       </p>
                     </div>
@@ -73,7 +73,7 @@ const AdditionalGames = () => {
                     <div className="d-flex mt-4 ms-4 ">
                       <div className="upper-rotate-div text-center flex-column  ">
                         Your daily chance to win a
-                        <span>ledgerlegends.racing NFT!</span>{" "}
+                        <span>vino.ecologico NFT!</span>{" "}
                       </div>
                       <div className="number-div d-flex justify-content-center  align-items-center ">
                         2
@@ -96,7 +96,7 @@ const AdditionalGames = () => {
                       <p className="card-p">
                         And of course, the result counts: if three of the same
                         cards remain standing, then you have won a random
-                        ledgerlegends.racing NFT from our Collection!
+                        vino.ecologico NFT from our Collection!
                       </p>
                     </div>
 

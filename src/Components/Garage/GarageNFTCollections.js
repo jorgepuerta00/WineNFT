@@ -165,8 +165,8 @@ const GarageNFTCollections = () => {
         console.log(NFTResponce, "NFTResponce");
         toast.success("Successfully minted");
       } else {
-        console.log("Insufficient ETH balance");
-        toast.error("Insufficient ETH balance");
+        console.log("Insufficient MATIC balance");
+        toast.error("Insufficient MATIC balance");
       }
     } catch (error) {
       console.error("Error in mintNFT:", error);
@@ -338,29 +338,29 @@ const GarageNFTCollections = () => {
           <img className="pic img-fluid" src={a} alt="a" />
         </div>
         <div className="col-lg-6 px-4 d-flex flex-column align-items-lg-end">
-          <p className="garage-c-p mt-5">
+          <p className="winery-c-p mt-5">
             The first NFT Collectors Card Game with chrome and horsepower!
           </p>
-          <p className="garage-c-p">
-            Expand your ledgerlegends.racing set with more cards from our unique
+          <p className="winery-c-p">
+            Expand your vino.ecologico set with more cards from our unique
             collection. Each pack contains five surprising cards with unique
             special sports cars and automotive legends of the last 100 years.
           </p>
-          <p className="garage-p-p mt-1">
-            Their price is only 2.5 ETH including 50 TURBO in addition to your
+          <p className="winery-p-p mt-1">
+            Their price is only 2.5 MATIC including 50 Vinum in addition to your
             NFTs!
           </p>
-          <p className="garage-c-p mt-1">
+          <p className="winery-c-p mt-1">
             Connect your Metamask and then click the MINT button to get your
             package.
           </p>
-          <p className="garage-c-p mt-1">For secondary market visit OpenSea.</p>
-          <p className="garage-c-p mt-1">
+          <p className="winery-c-p mt-1">For secondary market visit OpenSea.</p>
+          <p className="winery-c-p mt-1">
             Please be aware that MetaMask has to be installed in your browser to
             mint our NFTs.
           </p>
           <div>
-            <p className="garage-p-p mt-2 d-flex flex-wrap overflow-hidden">
+            <p className="winery-p-p mt-2 d-flex flex-wrap overflow-hidden">
               Address: {acc}{" "}
             </p>
           </div>
@@ -383,7 +383,7 @@ const GarageNFTCollections = () => {
       <div className="row py-5 cards-container">
         <div className="col-5 col-lg-3 ">
           <div className="side-bar px-lg-4 ">
-            <h2 className="sidebar-h py-2">Search by Traits</h2>
+            <h2 className="sidebar-h py-2">Buscar</h2>
             <button
               className="menu-div d-flex justify-content-between px-3 align-items-center"
               onClick={handleClick}

@@ -1,11 +1,11 @@
-.turbo-page {
+.Vinum-page {
   font-family: "Lato";
 }
-.turbo-page h1 {
+.Vinum-page h1 {
   font-style: italic;
   font-weight: bold;
 }
-.turbo-page span {
+.Vinum-page span {
   color: #ec008c;
 }
 .yellow-bg-div {
@@ -24,7 +24,7 @@
   font-size: 17px;
   font-weight: bold;
 }
-.blue-bg-turbo-div {
+.blue-bg-Vinum-div {
   background-image: url("../../Media/pre_games_hintergund.jpg");
   background-size: cover;
   height: 105vh;
@@ -40,7 +40,7 @@
   color: white !important;
 }
 @media screen and (max-width: 800px) {
-  .blue-bg-turbo-div {
+  .blue-bg-Vinum-div {
     background-image: url("../../Media/pre_games_hintergund.jpg");
     background-size: cover;
     height: 200vh;
@@ -57,7 +57,7 @@
     font-style: italic;
   }
 
-  .blue-bg-turbo-div {
+  .blue-bg-Vinum-div {
     background-image: url("../../Media/pre_games_hintergund.jpg");
     background-size: cover;
     height: 240vh;

@@ -102,11 +102,11 @@ const NFTCard = ({ nft, showMintOption, isConnected, acc }) => {
         {showMintOption && (
           <>
             <div className="d-flex justify-content-center mt-1">
-              Mint now and get <span className="span-pink mx-1">50 Turbo</span>{" "}
+              Mint now and get <span className="span-pink mx-1">50 Vinum</span>{" "}
               in return
             </div>
             <div className="d-flex justify-content-center">
-              Price: {price} ETH
+              Price: {price} MATIC
             </div>
             <div className="d-flex justify-content-center">
               <div className="header-button-div position-relative mt-2">

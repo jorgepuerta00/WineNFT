@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../../Media/Superfastcards_Logo_lang_RZ_weiss.svg";
-import "./Navbar.css";
 import { FaTwitter } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import logo from "../../Media/Superfastcards_Logo_lang_RZ_weiss.svg";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
@@ -38,9 +38,9 @@ const Navbar = () => {
                         <NavLink
                           active="menu_active"
                           className="nav-link"
-                          to="/games"
+                          to="/home"
                         >
-                          THE GAMES
+                          INICIO
                         </NavLink>
                       </li>
                       <li className="nav-item">
@@ -49,7 +49,7 @@ const Navbar = () => {
                           className="nav-link"
                           to="/thecollection"
                         >
-                          THE COLLECTIONS
+                          COLECCIÓN
                         </NavLink>
                       </li>
                       <li className="nav-item">
@@ -58,7 +58,7 @@ const Navbar = () => {
                           className="nav-link"
                           to="/shop"
                         >
-                          THE SHOP
+                          TIENDA
                         </NavLink>
                       </li>
                       <li className="nav-item">
@@ -67,34 +67,25 @@ const Navbar = () => {
                           className="nav-link"
                           to="/roadmap"
                         >
-                          THE ROADMAP
-                        </NavLink>
-                      </li>
-                      <li className="nav-item ">
-                        <NavLink
-                          active="menu_active"
-                          className="nav-link"
-                          to="/faq"
-                        >
-                          FAQ
+                          TRAYECTORIA
                         </NavLink>
                       </li>
                       <li className="nav-item  ">
                         <NavLink
                           active="menu_active"
                           className="nav-link p-c-link"
-                          to="/garage"
+                          to="/winery"
                         >
-                          YOUR GARAGE
+                          TU BODEGA
                         </NavLink>
                       </li>
                       <li className="nav-item ">
                         <NavLink
                           active="menu_active"
                           className="nav-link "
-                          to="/turbo"
+                          to="/Vinum"
                         >
-                          TURBO
+                          VINUM
                         </NavLink>
                       </li>
                       <li className="nav-item  ">
@@ -104,16 +95,16 @@ const Navbar = () => {
                           href="#features"
                         >
                           <FaTwitter className="t-icon me-1" />
-                          FOLLOW US
+                          SIGUENOS
                         </a>
                       </li>
                       <li className="nav-item ">
                         <NavLink
                           active="menu_active"
-                          className="nav-link "
-                          to="/play"
+                          className="nav-link"
+                          to="/faq"
                         >
-                          PLAY
+                          FAQ
                         </NavLink>
                       </li>
                     </ul>

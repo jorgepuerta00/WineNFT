@@ -278,8 +278,8 @@ const Carbonleathercollection = () => {
         console.log(NFTResponce, "NFTResponce");
         toast.success("Successfully minted");
       } else {
-        console.log("Insufficient ETH balance");
-        toast.error("Insufficient ETH balance");
+        console.log("Insufficient MATIC balance");
+        toast.error("Insufficient MATIC balance");
       }
     } catch (error) {
       console.error("Error in mintNFT:", error);
@@ -385,29 +385,29 @@ const Carbonleathercollection = () => {
             <img className=" img-fluid" src={a} alt="a" />
           </div>
           <div className="col-lg-6 px-4 d-flex flex-column align-items-lg-end">
-            <p className="garage-c-p mt-5">
+            <p className="winery-c-p mt-5">
               This is currently our most special and noble Collection: Carbon &
               Leather! It consists of 100 of the best, fastest and most
               exclusive sports and luxury cars of all time.
             </p>
-            <p className="garage-c-p">
+            <p className="winery-c-p">
               Every single NFT has a frame that reflects the soul of the
               portrayed extraordinary automobile – the fine leather of its
               interior or the processed motorsport composite carbon. It’s not
               just highly exclusive it is also very rare as each of the 100
               car(d)s is strictly limited to just 100 pieces!
             </p>
-            <p className="garage-p-p mt-1">
-              Buy them for 39 ETH and get 250 TURBO in addition to your NFT!
+            <p className="winery-p-p mt-1">
+              Buy them for 39 MATIC and get 250 Vinum in addition to your NFT!
             </p>
-            <p className="garage-c-p mt-1">
+            <p className="winery-c-p mt-1">
               Connect your Metamask and then click the MINT button to get your
               desired car.
             </p>
-            <p className="garage-c-p mt-1">
+            <p className="winery-c-p mt-1">
               For secondary market visit OpenSea.
             </p>
-            <p className="garage-c-p mt-1">
+            <p className="winery-c-p mt-1">
               Please be aware that MetaMask has to be installed in your browser
               to mint our NFTs.
             </p>
@@ -416,7 +416,7 @@ const Carbonleathercollection = () => {
         <div className="row py-5 cards-container">
           <div className="col-5 col-lg-3 ">
             <div className="side-bar px-lg-4 ">
-              <h2 className="sidebar-h py-2">Search by Traits</h2>
+              <h2 className="sidebar-h py-2">Buscar</h2>
               <button
                 className="menu-div d-flex justify-content-between px-3 align-items-center"
                 onClick={handleClick}
@@ -758,12 +758,12 @@ const Carbonleathercollection = () => {
                       <img className="img-fluid" src={nft.image} alt="m" />
                       <div className="d-flex justify-content-center mt-1">
                         Mint now and get{" "}
-                        <span className="span-pink mx-1"> 50 Turbo </span> in
+                        <span className="span-pink mx-1"> 50 Vinum </span> in
                         return
                       </div>
                       <div className="d-flex justify-content-center">
                         {" "}
-                        Price: {price} ETH
+                        Price: {price} MATIC
                       </div>
                       <div className="d-flex justify-content-center">
                         <div className="header-button-div   position-relative   mt-2">

@@ -40,20 +40,20 @@ const SlotMachineGame = () => {
               </div>
               <div className="col-lg-3 px-1">
                 <p className="mt-5">
-                  Another daily chance to win a ledgerlegends.racing NFT!
+                  Another daily chance to win a vino.ecologico NFT!
                 </p>
                 <p>
-                  Can you hardly wait for the launch of the ledgerlegends.racing
-                  Game, too? To shorten the waiting time for all of us, we have
+                  Can you hardly wait for the launch of the vino.ecologico Game,
+                  too? To shorten the waiting time for all of us, we have
                   developed a second little pre-launch game for you: the
-                  ledgerlegends.racing Slot Machine!
+                  vino.ecologico Slot Machine!
                 </p>
                 <p>
                   The rules are also very simple: Just like in a classic slot
                   machine, you only have to press the lever (resp. press the
                   SPIN button) and the three cards spin in a circle. And of
                   course, the result counts: if three of the same cards remain
-                  standing, then you have won a ledgerlegends.racing NFT!
+                  standing, then you have won a vino.ecologico NFT!
                 </p>
               </div>
             </div>
