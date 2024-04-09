@@ -23,4 +23,4 @@ RUN npm install -g serve
 EXPOSE 3000
 
 # Define the command to run the app using `serve` with the root context path
-CMD ["serve", "-s", "build", "-l", "3000", "-n"]
+CMD ["serve", "-s", "build", "-l", "3000", "--single"]
